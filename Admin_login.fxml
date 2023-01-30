@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.StudentLogin">
+    <Text text="Welcome" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <GridPane.columnSpan>2</GridPane.columnSpan>
+    </Text>
+
+    <Label layoutX="141.0" layoutY="164.0" prefHeight="17.0" prefWidth="82.0" text="User Name:" textAlignment="JUSTIFY" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font size="14.0" />
+        </font></Label>
+
+    <TextField layoutX="223.0" layoutY="157.0" opacity="0.71" prefHeight="34.0" prefWidth="173.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label layoutX="141.0" layoutY="204.0" prefHeight="17.0" prefWidth="91.0" text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <font>
+            <Font size="14.0" />
+        </font></Label>
+
+    <PasswordField fx:id="passwordField" depthTest="DISABLE" layoutX="223.0" layoutY="207.0" opacity="0.71" prefHeight="34.0" prefWidth="173.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <ToggleButton layoutX="405.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="log in " />
+    <Text layoutX="93.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME, ADMIN" textAlignment="CENTER" wrappingWidth="398.11328125">
+        <font>
+            <Font size="36.0" />
+        </font>
+    </Text>
+
+</AnchorPane>
